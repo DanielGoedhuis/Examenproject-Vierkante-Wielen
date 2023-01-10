@@ -94,14 +94,42 @@ body{
   display: grid;
   grid-template-columns: 50% 50%;
   color: #fff;
-  
   align-content: space-between;
+}
+.info{
+  max-width: 75%;
 }
 
 .sign-in{
+  max-width: 40%;
+  padding: 0 10% 0 10%;
+  align-items : center;
+  display: inline;
   padding-top: 5%;
   text-align: center;
   border-radius: 25px;
   margin-left: 10%  ;
   background-color: #a79e96;
+}
+.strikethrough {
+  position: relative;
+}
+.strikethrough:before {
+  color: #ff0000;
+  position: absolute;
+  content: "";
+  left: 0%;
+  top: 40%;
+  right: 0%;
+  border-top: 4px solid;
+  border-color: inherit;
+  transform:rotate(-10deg);
+}
+.price-sign-in{
+ display: inline-flex;
+}
+.id-icon{
+  float: right;
+  position: relative;
+  transform: rotate(45deg);
 }
