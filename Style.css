@@ -141,14 +141,29 @@ body{
 }
 .input-sign-in{
   color: #A39588;
-  display: inline-block;
+  /* display: grid;
+  grid-template-columns: 50% 50%; */
+  display: flex;
 }
 
+#postcode {
+  width: 20px;
+}
+#input-sign-in-2{
+  display: flex;
+  flex-direction: row;
+}
+.input{
+  border: solid 1px black;
+  color: #F0F0F2;
+  background-color: #d4c7bf;
+  border-radius: 5px;
+  padding: 4px 0px 4px 7px ;
+}
 .proefles{
   padding: 5% 20% 0 20%;
   text-align: center;
 }
-
 .textvak{
   margin-top: 20px;
   color: #F0F0F2;
