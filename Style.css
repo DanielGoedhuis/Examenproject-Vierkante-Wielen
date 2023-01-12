@@ -204,3 +204,46 @@ padding: 0 20% 0 10%;
   grid-template-columns: 32% 32% 32%
   4%
 }
+flex-child{
+  padding: 5% 20% 0 20%;
+  text-align: center;
+  flex: 1;
+}
+
+.flex-child:first-child{
+  margin-right: 1px;
+}
+
+.textvak{
+  margin-top: 20px;
+  color: #F0F0F2;
+  background-color: #bdb2ab;
+  border-radius: 5px;
+  padding: 4px 0px 4px 7px ;
+  border: 0px;
+}
+.proefknop{
+  margin-top: 20px;
+  background-color: #A39588;
+  padding: 15px 100px 15px 100px;
+  border-radius: 8px;
+  font-size: larger;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.resize{
+  width: 355px;
+}
+.flex-child2{
+  padding-top: 5%;
+  flex: 2;
+  margin-left: -300px;
+
+}
+.lijntje{
+  text-align: center;
+
+}
