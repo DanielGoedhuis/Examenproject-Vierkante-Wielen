@@ -99,7 +99,7 @@ body{
 .info{
   max-width: 75%;
 }
-.sign-in{
+#sign-in-card{
   max-width: 40%;
   padding: 0 10% 0 10%;
   align-items : center;
@@ -139,26 +139,40 @@ body{
   padding-left: 10%;
   text-align: left
 }
+
 .input-sign-in{
   color: #A39588;
-  /* display: grid;
-  grid-template-columns: 50% 50%; */
-  display: flex;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
-#postcode {
-  width: 20px;
-}
 #input-sign-in-2{
-  display: flex;
-  flex-direction: row;
+ display: flex;
 }
-.input{
+#input-a{
+  width: 80%;
   border: solid 1px black;
   color: #F0F0F2;
   background-color: #d4c7bf;
   border-radius: 5px;
   padding: 4px 0px 4px 7px ;
+}
+#input-b{
+  width: 80%;
+  border: solid 1px black;
+  color: #F0F0F2;
+  background-color: #d4c7bf;
+  border-radius: 5px;
+  padding: 4px 0px 4px 7px ;
+}
+#sign-in-btn{
+  width: 100%;
+  font-size: 150%;
+  background-color: #A39588;
+  border: 0;
+  padding: 5% 5% 5% 5%;
+  border-radius: 5px;
+  margin-top: 5%;
 }
 .proefles{
   padding: 5% 20% 0 20%;
@@ -178,4 +192,7 @@ body{
   padding: 15px 100px 15px 100px;
   border-radius: 8px;
   font-size: larger;
+}
+#content-lorem{
+padding: 0 20% 0 10%;
 }
