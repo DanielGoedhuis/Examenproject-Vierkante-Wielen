@@ -106,9 +106,14 @@ body{
   background-color: #a79e96;
 }
 
-.proefles{
+.flex-child{
   padding: 5% 20% 0 20%;
   text-align: center;
+  flex: 1;
+}
+
+.flex-child:first-child{
+  margin-right: 1px;
 }
 
 .textvak{
@@ -125,4 +130,22 @@ body{
   padding: 15px 100px 15px 100px;
   border-radius: 8px;
   font-size: larger;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.resize{
+  width: 355px;
+}
+.flex-child2{
+  padding-top: 5%;
+  flex: 2;
+  margin-left: -300px;
+
+}
+.lijntje{
+  text-align: center;
+  
 }
