@@ -196,3 +196,11 @@ body{
 #content-lorem{
 padding: 0 20% 0 10%;
 }
+#service{
+  text-align: center;
+}
+#reviews{
+  display: grid;
+  grid-template-columns: 32% 32% 32%
+  4%
+}
