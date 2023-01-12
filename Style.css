@@ -5,7 +5,7 @@
   font-family: 'Poppins', sans-serif;
 }
 body{
-  background-color: #3B3B40;
+  background-color: #1D1D1D;
   background-size: cover;
 }
 .header{
@@ -199,10 +199,11 @@ padding: 0 20% 0 10%;
 #service{
   text-align: center;
 }
-#reviews{
+#content-service{
   display: grid;
-  grid-template-columns: 32% 32% 32%
-  4%
+  grid-template-columns: 32% 32% 32%;
+  column-gap: 4%;
+  margin: 2% 5% 0 5%;
 }
 flex-child{
   padding: 5% 20% 0 20%;
@@ -246,4 +247,45 @@ flex-child{
 .lijntje{
   text-align: center;
 
+}
+#geslaagd{
+  padding: 0 0 5% 0;
+  text-align: center;
+  width: 80%;
+  height: 50%;
+  background-color: #3B3B40;
+  border-radius: 10px;
+}
+#icon-party-popper{
+  color: black;
+  font-size: 300%; 
+  margin: 5% 0 2% 0;
+}
+#beoordeling{
+  margin-top: 20%;
+  padding: 0 0 5% 0;
+  text-align: center;
+  width: 80%;
+  height: 50%;
+  background-color: #3B3B40;
+  border-radius: 10px;
+}
+#icon-award{
+  color: black;
+  font-size: 300%; 
+  margin: 5% 0 2% 0;
+}
+#beveling{
+  margin-top: 40%;
+  padding: 0 0 5% 0;
+  text-align: center;
+  width: 80%;
+  height: 50%;
+  background-color: #3B3B40;
+  border-radius: 10px;
+}
+#icon-conversation{
+  color: black;
+  font-size: 300%; 
+  margin: 5% 0 2% 0;
 }
