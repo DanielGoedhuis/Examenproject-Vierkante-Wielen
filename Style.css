@@ -205,10 +205,10 @@ padding: 0 20% 0 10%;
   column-gap: 4%;
   margin: 2% 5% 0 5%;
 }
-flex-child{
+.flex-child{
   padding: 5% 20% 0 20%;
   text-align: center;
-  flex: 1;
+
 }
 
 .flex-child:first-child{
@@ -232,17 +232,12 @@ flex-child{
 }
 
 .flex-container{
-  display: flex;
+  text-align: center;
+
 }
 
 .resize{
   width: 355px;
-}
-.flex-child2{
-  padding-top: 5%;
-  flex: 2;
-  margin-left: -300px;
-
 }
 .lijntje{
   text-align: center;
