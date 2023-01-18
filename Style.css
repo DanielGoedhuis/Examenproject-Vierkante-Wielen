@@ -284,3 +284,10 @@ padding: 0 20% 0 10%;
   font-size: 300%; 
   margin: 5% 0 2% 0;
 }
+#triangle{
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;          
+  border-bottom: 20px solid white;
+}
