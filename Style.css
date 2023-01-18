@@ -420,25 +420,8 @@ body{
   border-radius: 5px;
   margin-top: 5%;
 }
-.proefles{
-  padding: 5% 20% 0 20%;
-  text-align: center;
-}
-.textvak{
-  margin-top: 20px;
-  color: #F0F0F2;
-  background-color: #bdb2ab;
-  border-radius: 5px;
-  padding: 4px 0px 4px 7px ;
-  border: 0px;
-}
-.proefknop{
-  margin-top: 20px;
-  background-color: #A39588;
-  padding: 15px 100px 15px 100px;
-  border-radius: 8px;
-  font-size: larger;
-}
+
+
 #content-lorem{
   padding: 0 20% 0 10%;
 }
@@ -449,6 +432,13 @@ body{
   display: grid;
   grid-template-columns: 32% 32% 32%
   4%
+}
+
+
+/*proefles css begin*/
+.proefles{
+  padding: 5% 20% 0 20%;
+  text-align: center;
 }
 
 .textvak{
@@ -514,3 +504,4 @@ body{
   padding: 4px 0px 4px 7px ;
   border: 0px;
 }
+/*proefles css eind */
