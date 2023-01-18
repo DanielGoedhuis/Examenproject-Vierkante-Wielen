@@ -224,10 +224,13 @@ padding: 0 20% 0 10%;
 }
 
 .flex-container{
+.flex-child{
+  padding: 5% 20% 0 20%;
   text-align: center;
   display: grid;
   grid-template-columns: 50% 50% ;
   align-items: center;
+
 }
 
 .flex-child{
@@ -464,6 +467,8 @@ body{
   display: grid;
   grid-template-columns: 50% 50% ;
   align-items: center;
+  text-align: center;
+
 }
 
 .flex-child{
@@ -487,6 +492,8 @@ body{
   width: 1200px;
   align-items: center;
 }
+.lijntje{
+  text-align: center;
 
 #line-section{
   width: 600px;
@@ -533,6 +540,13 @@ body{
   color: black;
   font-size: 300%; 
   margin: 5% 0 2% 0;
+}
+#triangle{
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;          
+  border-bottom: 20px solid white;
 }
 
 
