@@ -87,7 +87,7 @@ body{
 .dropdown{
   border-radius: 5px 5px 0 0;
   text-align: center;
-  min-width: 134px ;
+  min-width: 151px ;
   background-color: #A39588;
   position: relative;
   display: inline-block;
@@ -423,3 +423,69 @@ body{
   border: 0px;
 }
 /*proefles css eind */
+/*login leerling css begin*/
+.body-login{
+  text-align: center;
+  padding-top: 10%;
+  margin: 0 32%;
+}
+.gebruikersnaam{
+  margin-top: 10%;
+  height: 7vh;
+}
+.input-gebruikersnaam{
+  margin-top: 2%;
+  border: transparent;
+  width: 100%;
+  height: 50%;
+  border-radius: 8px;
+  color:#1D1D1D;
+  font-size: 200%;
+  padding: 2%;
+}
+.password{
+  margin-top: 15%;
+  height: 7vh;
+}
+.input-password{
+  margin-top: 2%;
+  border: transparent;
+  width: 100%;
+  height: 50%;
+  border-radius: 8px;
+  color:#1D1D1D;
+  font-size: 200%;
+  padding: 2%;
+}
+.forgot-password{
+  float: left;
+  margin-top: 1%;
+
+}
+#login-footer{
+  margin-top: 25%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+#loginbtn{
+  margin-left: 20%;
+  width: 80%;
+  height: 60px;
+  border-radius: 10px;
+  border: #A39588;
+  background-color: #A39588;
+  font-size: 165%;
+}
+#no-account-login{
+  text-align: left;
+  display: grid;
+}
+#login-intructeur{
+  margin-top: 25%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+#forgot-password-instructeur{
+  margin-top: 8%;
+}
+/*login leerling css eind*/
