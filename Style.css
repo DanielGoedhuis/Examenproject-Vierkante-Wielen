@@ -268,7 +268,7 @@ body{
   width: 90vw;
   padding-left: 6%;
   margin-top: 200px;
-  height: 100px;
+  height: 100%;
   display: grid;
   grid-template-rows: auto;
   grid-column-gap: 5%;
@@ -277,10 +277,12 @@ body{
   white-space: nowrap
 }
 .review-card{
+  padding: 2px;
   border-radius: 15px;
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  height: 100%;
   background-color:#F0F0F2;
+  align-content: space-between;
 }
 
 #triangle{
@@ -293,15 +295,25 @@ body{
 }
 .review-five-stars{
   padding: 2%;
+  font-size: larger;
 }
 .review-crd-txt{
   color: #A39588;
-  
+  white-space:normal;
+  margin: 5%;
 }
-
+.review-icons{
+  display: flex;
+  justify-content: space-between;
+}
+.google-icon{
+  font-size: larger;
+  padding: 3% 5% 5% 5%;
+}
 /*proefles css begin*/
-
-
+#body-proefrijden{
+  text-align: center;
+}
 .proefles{
   padding: 5% 20% 0 20%;
   text-align: center;
@@ -325,6 +337,7 @@ body{
 }
 
 .flex-container{
+  margin-left: 6%;
   text-align: center;
   display: grid;
   grid-template-columns: 50% 50% ;
@@ -334,33 +347,34 @@ body{
 .flex-child{
   width: 30%;
   float: left;
-  padding-left: 50%;
+  padding-left: 40%;
   text-align: center;
+  display: grid;
+  grid-template-columns: auto;
 }
-
+#textvak-header{
+  width: fit-content ;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-column-gap: 10%;
+}
 .resize{
-  width: 44%;
+  width: 51%;
 }
 #line-header{
-  width: 30px;
-  text-align:left;
-  margin-left:0;
+  color: #F0F0F2;
+  width: 5%;
+  margin-left: 25%;
   height: 5px;
+  background-color: #F0F0F2;
 }
-
-#line-section{
-  width: 1200px;
-  align-items: center;
-}
-
-#line-section{
-  width: 600px;
-  align-items: center;
-  margin-left: 200px;
-}
-
-.mid-section{
-  align-items: center;
+#midline-hr{
+  margin-top: 3%;
+  color: #F0F0F2;
+  width: 52%;
+  margin-left: 25%;
+  height: 5px;
+  background-color: #F0F0F2;
 }
 #fname{
 
