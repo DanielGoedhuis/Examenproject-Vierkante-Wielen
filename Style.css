@@ -206,67 +206,8 @@ body{
 }
 
 
-/*proefles css begin*/
-.proefles{
-  padding: 5% 20% 0 20%;
-  text-align: center;
-}
 
-.textvak{
-  margin-top: 20px;
-  color: #F0F0F2;
-  background-color: #bdb2ab;
-  border-radius: 5px;
-  padding: 4px 0px 4px 7px ;
-  border: 0px;
-}
-.proefknop{
-  margin-top: 20px;
-  background-color: #A39588;
-  padding: 15px 100px 15px 100px;
-  border-radius: 8px;
-  font-size: larger;
-  border: 0px;
-}
 
-.flex-container{
-  text-align: center;
-  display: grid;
-  grid-template-columns: 50% 50% ;
-  align-items: center;
-  text-align: center;
-
-}
-
-.flex-child{
-  width: 50%;
-  float: left;
-  padding-left: 50%;
-  text-align: center;
-}
-
-.resize{
-  width: 44%;
-}
-#line-header{
-  width: 30px;
-  text-align:left;
-  margin-left:0;
-  height: 5px;
-}
-
-#line-section{
-  width: 1200px;
-  align-items: center;
-}
-.lijntje{
-  text-align: center;
-}
-#line-section{
-  width: 600px;
-  align-items: center;
-  margin-left: 200px;
-}
 #geslaagd{
   padding: 0 0 5% 0;
   text-align: center;
@@ -315,12 +256,78 @@ body{
   border-right: 20px solid transparent;          
   border-bottom: 20px solid white;
 }
+/*proefles css begin*/
 
+
+.proefles{
+  padding: 5% 20% 0 20%;
+  text-align: center;
+}
+
+.textvak{
+  margin-top: 20px;
+  color: #F0F0F2;
+  background-color: #bdb2ab;
+  border-radius: 5px;
+  padding: 4px 0px 4px 7px ;
+  border: 0px;
+}
+.proefknop{
+  margin-top: 20px;
+  background-color: #A39588;
+  padding: 15px 100px 15px 100px;
+  border-radius: 8px;
+  font-size: larger;
+  border: 0px;
+}
+
+.flex-container{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 50% 50% ;
+  align-items: center;
+}
+
+.flex-child{
+  width: 30%;
+  float: left;
+  padding-left: 50%;
+  text-align: center;
+}
+
+.resize{
+  width: 44%;
+}
+#line-header{
+  width: 30px;
+  text-align:left;
+  margin-left:0;
+  height: 5px;
+}
+
+#line-section{
+  width: 1200px;
+  align-items: center;
+}
+
+#line-section{
+  width: 600px;
+  align-items: center;
+  margin-left: 200px;
+}
 
 .mid-section{
   align-items: center;
 }
 #fname{
+
+  color: #F0F0F2;
+  background-color: #bdb2ab;
+  border-radius: 5px;
+  padding: 4px 0px 4px 7px ;
+  border: 0px;
+}
+#lname{
 
   color: #F0F0F2;
   background-color: #bdb2ab;
