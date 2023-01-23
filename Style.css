@@ -382,19 +382,37 @@ body{
   background-color: #F0F0F2;
 }
 #fname{
-
   color: #F0F0F2;
   background-color: #bdb2ab;
   border-radius: 5px;
   padding: 4px 0px 4px 7px ;
   border: 0px;
+
 }
 #lname{
-
   color: #F0F0F2;
   background-color: #bdb2ab;
   border-radius: 5px;
   padding: 4px 0px 4px 7px ;
   border: 0px;
 }
+#E-mail{
+  color: #F0F0F2;
+  background-color: #bdb2ab;
+  border-radius: 5px;
+  padding: 4px 0px 4px 7px ;
+  border: 0px;
+}
+
+#number{
+  color: #F0F0F2;
+  background-color: #bdb2ab;
+  border-radius: 5px;
+  padding: 4px 0px 4px 7px;
+  border: 0px;
+}
+
+
+
+
 /*proefles css eind */
