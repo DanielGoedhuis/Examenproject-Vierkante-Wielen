@@ -1,5 +1,5 @@
 *{
-  color: #F0F0F2;
+
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
@@ -415,7 +415,7 @@ body{
   color: #F0F0F2;
   background-color: #bdb2ab;
   border-radius: 5px;
-  padding: 4px 0px 4px 7px ;
+  padding: 6px 30px 6px 45px ;
   border: 0px;
 
 }
@@ -423,14 +423,14 @@ body{
   color: #F0F0F2;
   background-color: #bdb2ab;
   border-radius: 5px;
-  padding: 4px 0px 4px 7px ;
+  padding: 6px 30px 6px 45px ;
   border: 0px;
 }
 #E-mail{
   color: #F0F0F2;
   background-color: #bdb2ab;
   border-radius: 5px;
-  padding: 4px 0px 4px 7px ;
+  padding: 6px 30px 6px 45px ;
   border: 0px;
 }
 
@@ -438,12 +438,66 @@ body{
   color: #F0F0F2;
   background-color: #bdb2ab;
   border-radius: 5px;
-  padding: 4px 0px 4px 7px;
+  padding: 6px 30px 6px 45px;
   border: 0px;
 }
 
+.invoervelden{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  white-space: normal;
+}
 
+#postcode{
+  color: #F0F0F2;
+  background-color: #bdb2ab;
+  border-radius: 5px;
+  padding: 6px 30px 6px 45px;
+  border: 0px;
+}
 
+#house-number{
+  color: #F0F0F2;
+  background-color: #bdb2ab;
+  border-radius: 5px;
+  padding: 6px 30px 6px 45px;
+  border: 0px;
+}
+
+#streetname{
+  color: #F0F0F2;
+  background-color: #bdb2ab;
+  border-radius: 5px;
+  padding: 6px 30px 6px 45px;
+  border: 0px;
+}
+
+#place{
+  color: #F0F0F2;
+  background-color: #bdb2ab;
+  border-radius: 5px;
+  padding: 6px 30px 6px 45px;
+  border: 0px;
+}
+
+.checkvakje{
+  padding: 0 25% 5% 25%;
+  text-align: center;
+}
+.laatste-knop{
+  margin-top: 20px;
+  background-color: #A39588;
+  padding: 15px 100px 15px 100px;
+  border-radius: 8px;
+  font-size: larger;
+  border: 0px;
+  text-align: center;
+}
+.div-laatste{
+  text-align: center;
+  padding-bottom: 5%;
+}
 /*proefles css eind */
 /*login leerling/instructeur css begin*/
 .body-login{
@@ -591,3 +645,48 @@ body{
   width: fit-content;
 }
 /*Homepageleerling eind*/
+
+/*Homepageinstucteur begin*/
+
+#beschikbaarheid-instructeur{
+ width: 100%;
+ color: black;
+}
+
+.color-white{
+  color: white;
+}
+
+.button-dagen{
+  margin: 2%;
+  width: 30%;
+  height: 40px;
+  border-radius: 8px;
+  background-color: white;
+  border-width: 1px;
+}
+
+.margin-tijd{
+  margin-bottom: 6%;
+}
+
+.doorgeef-knop{
+  width: 10%;
+  height: 10%;
+  background-color: white;
+  border-color: #A39588;
+  color: black;
+
+}
+
+.container-beschikbaarheid{
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-beschikbaarheid{
+  width: 50%;
+        height: auto;
+        text-align: center;
+        padding-top: 5%;
+}

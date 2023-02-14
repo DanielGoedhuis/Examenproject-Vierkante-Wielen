@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.google.com/specimen/Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+    <meta charset="UTF-8">
+    <title>Proefrijden</title>
+</head>
+<body>
+    <div id="body-proefrijden">
+        <div style="text-align: center">
+            <h1 style="font-size: 45px; padding: 2% 0 0 0">GRATIS PROEFRIJLES PLANNEN</h1>
+
+            <hr id="line-header">
+
+            <h3 style="padding-bottom: 2%; font-size: 25px">Reserveer snel en gemakkelijk een dag en tijd!</h3>
+        </div>
+        <div class="flex-container">
+    
+            <div class="flex-child">
+                <div>
+                    <h1 style="float: left;">Waar?</h1>
+                </div>
+            <div id="textvak-header">
+                <input class="textvak input input--auto-complete" type="text" value="Postcode">
+                <input class="textvak input input--auto-complete" type="text" value="Huisnummer">
+            </div>
+                <input class="proefknop input input--auto-complete" type="submit" name="Ga verder">
+            </div>
+                <img class="resize" src="Pictures/proefles.png">
+        
+    </div>
+    <hr id="midline-hr">
+</div>
+    <div style="padding-left: 25%">
+        <h2 style="padding-top: 5%">Gegevens</h2><br>
+        <h3 style="color: #bdb2ab">Naam</h3><br>
+    </div>
+
+    <form style="padding-left: 25%" class="invoervelden" action="">
+        <div>
+            <label for="fname">Voornaam*</label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+        </div>
+        <div>
+            <label for="lname">Achternaam*</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+        </div>
+        <div>
+            <label for="E-mail">E-mail*</label><br>
+            <input type="e-mail" id="E-mail" name="e-mail"><br><br>
+        </div>
+        <div>
+            <label for="number">Mobiel*</label><br>
+            <input type="tel" id="number" name="number"><br><br>
+        </div>
+    </form>
+
+    <br>
+
+    <div style="padding-left: 25%">
+        <h3 style="color: #bdb2ab">Locatie</h3><br>
+    </div>
+
+    <form style="padding-left: 25%" class="invoervelden" action="">
+        <div>
+            <label for="postcode">Postcode*</label><br>
+            <input type="text" id="postcode" name="postcode" class="input input--auto-complete"><br><br>
+        </div>
+        <div>
+            <label for="house-number">Huisnummer*</label><br>
+            <input type="number" id="house-number" name="house-number" class="input input--auto-complete"><br><br>
+        </div>
+        <div>
+            <label for="streetname">Straatnaam*</label><br>
+            <input type="text" id="streetname" name="streetname"><br><br>
+        </div>
+        <div>
+            <label for="place">Plaatsnaam*</label><br>
+            <input type="text" id="place" name="place"><br><br>
+        </div>
+    </form>
+    <form  class="checkvakje" action="">
+        <div>
+            <input type="checkbox" id="checkbox" name="checkbox">
+            <label for="checkbox">Ja, ik ontvang graag de bevestiging van de afspraak via WhatsApp</label>
+        </div>
+    </form>
+    <div class="div-laatste">
+        <input class="laatste-knop" type="submit" name="Proefrijles Plannen">
+    </div>
+
+    <script>
+        "use strict";
+        
+        
+        const [zipCodeOne, houseNumberOne, continueButton, zipCodeTwo, houseNumberTwo] = [...document.querySelectorAll('.input--auto-complete')];
+        
+
+        continueButton.addEventListener('click', () => {
+            //4a
+            const zipCode = zipCodeOne.value; //Als je zipCodeOne logt en dan in de console openklikt dan kan je al properties zien (waaronder value)
+            const houseNumber = houseNumberOne.value;
+            //4b
+            zipCodeTwo.value = zipCode;
+            houseNumberTwo.value = houseNumber;
+        });
+        
+    </script>
+
+</body>
+</html>

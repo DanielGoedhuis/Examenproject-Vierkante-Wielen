@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.google.com/specimen/Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vierkante Wielen</title>
+</head>
+<body>
+<div id="body-homepageleerling">
+    <div  class="color-white" id="navbar-leerling">
+        <h1 class="color-white">Welkom Jorn</h1>
+        <ul>
+            <li>Nieuws</li>
+            <li>Beschikbaarheid</li>
+            <li>Uitloggen</li>
+        </ul>
+    </div>
+    <div>
+        <div  class="color-white" id="text-nieuwsoverzicht">
+            <div>
+                <h2>Nieuwsoverzicht</h2>
+                <h3 style="font-weight: 20;">Uitgelichte nieuws</h3>
+            </div>
+            <button id="btn-text-nieuwsoverzicht"> 3 ongelezen berichten</button>
+        </div>
+        <div id="content-nieuwsoverzicht">
+            <iconify-icon id="pin-icon" icon="material-symbols:push-pin-outline" style="color: #1d1d1d;"></iconify-icon>
+            <div id="nieuwsoverzicht-content">
+                <div id="nieuw-alert">
+                    <div id="nieuw-alert-content">
+                        nieuw!
+                        <div><iconify-icon icon="mdi:alert-decagram" style="color: #f0f0f2;" id="alert-icon"></iconify-icon></div>
+                    </div>
+                    <h3 style="color: #1d1d1d;">Tarieven verhoging</h3>
+                </div>
+                <div style="width: 60%;"> 
+                    <hr style="background-color:#b0adad;">
+                    <h3 style="color: #b0adad ;">Beste leerlingen,</h3>
+                    <br>
+                    <h3 style="color: #b0adad ;">Wij krijgen steeds vaker de vraag of onze tarieven omhoog zullen gaan. Dit gaat voorlopig <u style="color: #b0adad;">NIET</u> gebeuren.</h3>
+                </div>
+            </div>
+            
+        </div>  
+        <button  class="color-white" id="btn-nieuwsoverzicht">Lees meer nieuwtjes</button>
+     
+    </div>
+        <div  class="color-white" id="text-nieuwsoverzicht">
+            <div style="padding-bottom: 5%;">
+                <h2>Beschikbaarheid</h2>
+                <h3 style="font-weight: 20;">Voer hier je beschikbaarheid in voor aankomende weken</h3>
+            </div>
+        </div>
+        <div class="container-beschikbaarheid">
+            <div style="background-color: white;" class="box-beschikbaarheid">
+                
+                <form style="padding: 5%; ">
+                    <p style="padding-bottom: 1%;">Selecteer je dagen</p>
+                    
+                    <input type="button" name="maandag" class="button-dagen" value="Maandag"><br>
+
+                   
+                    <input type="button" name="dinsdag" class="button-dagen" value="Dinsdag"><br>
+
+                   
+                    <input type="button" name="woensdag" class="button-dagen" value="Woensdag"><br>
+
+                
+                    <input type="button" name="donderdag" class="button-dagen" value="Donderdag"><br>
+
+                    <input type="button" name="vrijdag" class="button-dagen" value="Vrijdag">
+                </form>
+            </div>
+            <div style="background-color: white;" class="box-beschikbaarheid">
+               
+                <form class="margin-tijd">
+
+                        <p style="padding-bottom: 2%; padding-top: 5%;">Beschikbare tijd</p>
+
+                        <label for="start-time"></label>
+                        <input type="time" id="start-time" name="start-time">
+                
+                        <label for="end-time">t/m</label>
+                        <input type="time" id="end-time" name="end-time">
+
+                        <input type="submit" class="doorgeef-knop" name="submit-maandag" value="noteren">
+                </form>
+                
+                <form  class="margin-tijd">
+                    
+                    <label for="start-time"></label>
+                    <input type="time" id="start-time" name="start-time">
+                
+                    <label for="end-time">t/m</label>
+                    <input type="time" id="end-time" name="end-time">
+
+                    <input type="submit" class="doorgeef-knop" name="submit-dinsdag" value="noteren">
+                
+                </form>
+                <form  class="margin-tijd">
+                    
+                    <label for="start-time"></label>
+                    <input type="time" id="start-time" name="start-time">
+                
+                    <label for="end-time">t/m</label>
+                    <input type="time" id="end-time" name="end-time">
+
+                    <input type="submit" class="doorgeef-knop" name="submit-woensdag" value="noteren">
+                
+                </form>
+                <form  class="margin-tijd">
+                    
+                    <label for="start-time"></label>
+                    <input type="time" id="start-time" name="start-time">
+                
+                    <label for="end-time">t/m</label>
+                    <input type="time" id="end-time" name="end-time">
+
+                    <input type="submit" class="doorgeef-knop" name="submit-donderdag" value="noteren">
+                
+                </form>
+                <form  class="margin-tijd">
+                    
+                    <label for="start-time"></label>
+                    <input type="time" id="start-time" name="start-time">
+                
+                    <label for="end-time">t/m</label>
+                    <input type="time" id="end-time" name="end-time">
+                
+                    <input type="submit"  class="doorgeef-knop" name="submit-vrijdag" value="noteren">
+                </form>
+            </div>
+        </div>
+        
+</div>
+</body>
+</html>
