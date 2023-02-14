@@ -9,12 +9,19 @@ body{
   background-color: #1D1D1D;
   background-size: cover;
 }
+.fontweight{
+  font-weight: 20
+}
+
 .header{
   width: 100%;
   height: 80vh;
   background-image: url(Pictures/merrie.png) ;
   background-size: cover;
   background-position: center;
+}
+.black-font{
+  color: #1D1D1D;
 }
 ::-webkit-scrollbar {
   width: 20px;
@@ -643,6 +650,87 @@ body{
   padding-right: 1%;
   background-color: #5FA5D3;
   width: fit-content;
+}
+#planner-card{
+  width: 100%;
+  background-color: #F0F0F2;
+  height: 100%; 
+  padding-bottom: 2%;
+  display: grid ;
+  grid-template-columns: 32% 32% 32%;
+  column-gap: 2%;
+}
+.days-button{
+  color: #1D1D1D;
+  font-size: 20px;
+  margin: 4%;
+  padding: 4%;
+  border-radius: 10px;
+}
+#days-card{
+  align-content: space-around;
+  display: grid;
+  width: 50%;
+  padding: 5% 40% 5% 30%;
+}
+#tijden{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 0 5% 5% 5%;
+}
+.tijden-btn{
+  border-width: 1px;
+  color: #1D1D1D;
+  margin: 8%;
+  padding: 2% 5% 2% 5%;
+  border-radius: 30px;
+}
+#beschikbare-tijden{
+  text-align: center;
+  padding-top: 25%;
+}
+#card-ophaal-locatie{
+  padding-top: 25%;
+  text-align: center;
+  color: #1D1D1D;
+
+}
+#input-ophaal{
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 3%;
+  text-align: center;
+  align-self:flex-start;
+  background-color: #F0F0F2;
+  border-width: 1px;  
+  width: 70%;
+  height: 15%;
+}
+#text-ophaal-locatie{
+  align-self: flex-end;
+}
+#input-ophaal-postcode{
+  text-align: center;
+  display: grid;
+  margin: auto;
+  width: 70%;
+  grid-template-columns: 50% 50% ;
+  height: 15%;
+}
+.input-ophaal-postcode{
+  background-color: #F0F0F2;
+  border-width: 1px;
+  text-align: center;
+}
+#input-ophaal-postcode-left{
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-right-width: 0;
+}
+#input-ophaal-postcode-right{
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px ;
 }
 /*Homepageleerling eind*/
 
